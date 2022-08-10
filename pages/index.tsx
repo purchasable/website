@@ -15,7 +15,7 @@ const Home: NextPage = () => {
                 <h2 className="text-slate-300 text-l font-medium lg:text-xl py-2">
                     Full Stack Software & Web3 Developer
                 </h2>
-                <div className="flex items-center space-x-4 py-2 pb-3">
+                <div className="flex items-center space-x-4 py-2">
                     <a
                         href="https://github.com/alsojoseph"
                         target="_blank"
