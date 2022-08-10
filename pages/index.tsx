@@ -8,7 +8,7 @@ const Home: NextPage = () => {
         <div className="min-h-screen px-[5%] bg-zinc-900">
             <div className="items-center h-full flex flex-col justify-center min-h-screen">
                 <div className="text-transparent bg-clip-text bg-gradient-to-r from-neutral-400 via-blue-400 to-red-500">
-                    <h1 className="text-5xl md:text-7xl font-black py-4">
+                    <h1 className="text-4xl md:text-7xl font-black py-4">
                         Joseph Murphy
                     </h1>
                 </div>
