@@ -8,11 +8,11 @@ const Home: NextPage = () => {
         <div className="min-h-screen px-[5%] bg-zinc-900">
             <div className="items-center h-full flex flex-col justify-center min-h-screen">
                 <div className="text-transparent bg-clip-text bg-gradient-to-r from-neutral-400 via-blue-400 to-red-500">
-                    <h1 className="text-5xl md:text-8xl font-black py-4">
+                    <h1 className="text-5xl md:text-7xl font-black py-4">
                         Joseph Murphy
                     </h1>
                 </div>
-                <h2 className="text-slate-300 text-xl font-medium lg:text-2xl py-2">
+                <h2 className="text-slate-300 text-xl font-medium lg:text-xl py-2">
                     Full Stack Software & Web3 Developer
                 </h2>
                 <div className="flex items-center space-x-4 py-2">
@@ -22,7 +22,7 @@ const Home: NextPage = () => {
                         rel="noreferrer"
                         aria-label="GitHub Profile"
                     >
-                        <SiGithub className="h-9 w-9 text-slate-300" />
+                        <SiGithub className="h-8 w-8 text-slate-300" />
                         <span className="sr-only">GitHub Profile</span>
                     </a>
 
@@ -32,7 +32,7 @@ const Home: NextPage = () => {
                         rel="noreferrer"
                         aria-label="Twitter Profile"
                     >
-                        <SiTwitter className="h-9 w-9 text-slate-300" />
+                        <SiTwitter className="h-8 w-8 text-slate-300" />
                         <span className="sr-only">Twitter Profile</span>
                     </a>
 
@@ -42,7 +42,7 @@ const Home: NextPage = () => {
                         rel="noreferrer"
                         aria-label="Email"
                     >
-                        <SiGmail className="h-9 w-9 text-slate-300" />
+                        <SiGmail className="h-8 w-8 text-slate-300" />
                         <span className="sr-only">Email</span>
                     </a>
                 </div>
