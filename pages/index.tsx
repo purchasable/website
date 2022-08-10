@@ -5,8 +5,8 @@ import { SiGmail } from "react-icons/si";
 
 const Home: NextPage = () => {
     return (
-        <div className="min-h-screen px-[5%] bg-zinc-900">
-            <div className="items-center h-full flex flex-col justify-center min-h-screen">
+        <div className="bg-zinc-900">
+            <div className="items-center flex flex-col justify-center min-h-screen">
                 <div className="text-transparent bg-clip-text bg-gradient-to-r from-neutral-400 via-blue-400 to-red-500">
                     <h1 className="text-4xl md:text-7xl font-black py-3">
                         Joseph Murphy
@@ -15,7 +15,7 @@ const Home: NextPage = () => {
                 <h2 className="text-slate-300 text-l font-medium lg:text-xl py-2">
                     Full Stack Software & Web3 Developer
                 </h2>
-                <div className="flex items-center space-x-4 py-2">
+                <div className="flex items-center space-x-4 py-2 pb-3">
                     <a
                         href="https://github.com/alsojoseph"
                         target="_blank"
