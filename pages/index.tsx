@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Link from "next/link";
 import { SiGithub } from "react-icons/si";
 import { SiTwitter } from "react-icons/si";
 import { SiGmail } from "react-icons/si";
@@ -46,6 +47,9 @@ const Home: NextPage = () => {
                         <span className="sr-only">Email</span>
                     </a>
                 </div>
+                <footer className="absolute bottom-5 text-slate-300 cursor-pointer space-x-4">
+                    <Link href="https://blog.joseph.sh">Blog</Link>
+                </footer>
             </div>
         </div>
     );
