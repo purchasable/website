@@ -13,7 +13,7 @@ const Home: NextPage = () => {
                         Joseph Murphy
                     </h1>
                 </div>
-                <h2 className="text-slate-300 text-l font-medium lg:text-xl py-2">
+                <h2 className="text-slate-300 text-sm font-medium lg:text-xl py-2 font-mono">
                     Full Stack Software & Web3 Developer
                 </h2>
                 <div className="flex items-center space-x-4 py-2 pb-3">
@@ -47,7 +47,7 @@ const Home: NextPage = () => {
                         <span className="sr-only">Email</span>
                     </a>
                 </div>
-                <footer className="absolute bottom-5 text-slate-300 cursor-pointer space-x-4">
+                <footer className="absolute bottom-5 text-slate-300 cursor-pointer space-x-4 font-mono">
                     <Link href="https://blog.joseph.sh">Blog</Link>
                 </footer>
             </div>
