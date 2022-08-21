@@ -23,7 +23,7 @@ const Home: NextPage = () => {
                         rel="noreferrer"
                         aria-label="GitHub Profile"
                     >
-                        <SiGithub className="h-8 w-8 text-slate-300" />
+                        <SiGithub className="md:h-8 md:w-8 h-6 w-6 text-slate-300" />
                         <span className="sr-only">GitHub Profile</span>
                     </a>
 
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
                         rel="noreferrer"
                         aria-label="Twitter Profile"
                     >
-                        <SiTwitter className="h-8 w-8 text-slate-300" />
+                        <SiTwitter className="md:h-8 md:w-8 h-6 w-6 text-slate-300" />
                         <span className="sr-only">Twitter Profile</span>
                     </a>
 
@@ -43,7 +43,7 @@ const Home: NextPage = () => {
                         rel="noreferrer"
                         aria-label="Email"
                     >
-                        <SiGmail className="h-8 w-8 text-slate-300" />
+                        <SiGmail className="md:h-8 md:w-8 h-6 w-6 text-slate-300" />
                         <span className="sr-only">Email</span>
                     </a>
                 </div>
