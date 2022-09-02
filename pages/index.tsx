@@ -7,49 +7,75 @@ import { SiGmail } from "react-icons/si";
 const Home: NextPage = () => {
     return (
         <div className="absolute inset-0 bg-zinc-900">
-            <div className="items-center flex flex-col justify-center h-full">
-                <div className="text-transparent bg-clip-text bg-gradient-to-r from-neutral-400 via-blue-400 to-red-500">
-                    <h1 className="text-4xl md:text-7xl font-black py-2">
-                        Joseph Murphy
-                    </h1>
+            <div className="lg:p-20 lg:items-start items-center flex flex-col justify-center p-20 text-xs lg:text-sm space-y-6">
+                <h1 className="text-xl lg:text-2xl text-blue-400 font-bold">
+                    Joseph Murphy
+                </h1>
+                <span>Full stack software & web3 dev</span>
+                <span className="underline">Projects:</span>
+                <div className="items-start space-y-1">
+                    <li>
+                        <a
+                            target="_blank"
+                            className="hover:cursor-pointer underline text-red-300 hover:text-white"
+                            href="https://www.miragebots.io"
+                        >
+                            Mirage Software
+                        </a>
+                        <a> - founder & software developer</a>
+                    </li>
+                    <li>
+                        <a
+                            target="_blank"
+                            className="hover:cursor-pointer underline text-red-300 hover:text-white"
+                            href="https://ahiddensociety.com/"
+                        >
+                            HiddenSociety
+                        </a>
+                        <a> - software developer</a>
+                    </li>
                 </div>
-                <h2 className="text-slate-300 text-sm font-medium lg:text-xl py-2">
-                    Full Stack Software & Web3 Developer
-                </h2>
-                <div className="flex items-center space-x-4 py-2">
+            </div>
+            <div className="items-center flex flex-col text-xs lg:text-sm">
+                <h2 className="absolute bottom-7">
+                    <span>joseph.sh</span>{" "}
                     <a
+                        target="_blank"
                         href="https://github.com/alsojoseph"
-                        target="_blank"
+                        className="text-neutral-500 hover:text-blue-500"
                         rel="noreferrer"
-                        aria-label="GitHub Profile"
                     >
-                        <SiGithub className="md:h-8 md:w-8 h-6 w-6 text-slate-300" />
-                        <span className="sr-only">GitHub Profile</span>
+                        {" "}
+                        – github
                     </a>
-
                     <a
+                        target="_blank"
                         href="https://twitter.com/updated"
-                        target="_blank"
+                        className="text-neutral-500 hover:text-blue-500"
                         rel="noreferrer"
-                        aria-label="Twitter Profile"
                     >
-                        <SiTwitter className="md:h-8 md:w-8 h-6 w-6 text-slate-300" />
-                        <span className="sr-only">Twitter Profile</span>
+                        {" "}
+                        - twitter
                     </a>
-
                     <a
-                        href="mailto:contact@joseph.sh"
                         target="_blank"
+                        href="mailto:contact@joseph.sh"
+                        className="text-neutral-500 hover:text-blue-500"
                         rel="noreferrer"
-                        aria-label="Email"
                     >
-                        <SiGmail className="md:h-8 md:w-8 h-6 w-6 text-slate-300" />
-                        <span className="sr-only">Email</span>
+                        {" "}
+                        - email
                     </a>
-                </div>
-                <footer className="absolute bottom-5 text-slate-300 cursor-pointer space-x-4 font-medium">
-                    <Link href="https://blog.joseph.sh">Blog</Link>
-                </footer>
+                    <a
+                        target="_blank"
+                        href="https://blog.joseph.sh"
+                        className="text-neutral-500 hover:text-blue-500"
+                        rel="noreferrer"
+                    >
+                        {" "}
+                        - blog
+                    </a>
+                </h2>
             </div>
         </div>
     );
