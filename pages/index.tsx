@@ -1,10 +1,4 @@
-import type { NextPage } from "next";
-import Link from "next/link";
-import { SiGithub } from "react-icons/si";
-import { SiTwitter } from "react-icons/si";
-import { SiGmail } from "react-icons/si";
-
-const Home: NextPage = () => {
+export default function Home() {
     return (
         <div className="absolute inset-0 bg-zinc-900 font-semibold lg:font-normal">
             <div className="lg:p-20 lg:items-start items-center flex flex-col justify-center p-20 text-xs lg:text-sm space-y-6">
@@ -22,7 +16,7 @@ const Home: NextPage = () => {
                         >
                             Mirage Software
                         </a>
-                        <a> - founder & software developer</a>
+                        <span> - founder & software developer</span>
                     </li>
                     <li>
                         <a
@@ -32,7 +26,7 @@ const Home: NextPage = () => {
                         >
                             HiddenSociety
                         </a>
-                        <a> - software developer</a>
+                        <span> - software developer</span>
                     </li>
                 </ul>
             </div>
@@ -79,6 +73,4 @@ const Home: NextPage = () => {
             </div>
         </div>
     );
-};
-
-export default Home;
+}
