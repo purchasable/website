@@ -1,7 +1,7 @@
 export default function Home() {
     return (
         <div className="absolute inset-0 bg-zinc-900 font-semibold lg:font-normal">
-            <div className="lg:p-20 lg:items-start items-center flex flex-col justify-center p-20 text-xs lg:text-sm space-y-6">
+            <div className="lg:p-20 lg:items-start items-center flex flex-col justify-center p-20 text-xs lg:text-sm space-y-6 text-white">
                 <h1 className="text-xl lg:text-2xl text-blue-400 font-bold">
                     Joseph Murphy
                 </h1>
@@ -32,7 +32,7 @@ export default function Home() {
             </div>
             <div className="items-center flex flex-col text-xs lg:text-sm font-semibold lg:font-normal">
                 <h2 className="absolute bottom-7">
-                    <span>joseph.sh</span>{" "}
+                    <span className="text-white">joseph.sh</span>{" "}
                     <a
                         target="_blank"
                         href="https://github.com/alsojoseph"
