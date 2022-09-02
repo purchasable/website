@@ -13,7 +13,7 @@ const Home: NextPage = () => {
                 </h1>
                 <span>Full stack software & web3 dev</span>
                 <span className="underline">Projects:</span>
-                <div className="items-start space-y-1">
+                <ul className="items-start space-y-1 list-disc list-inside">
                     <li>
                         <a
                             target="_blank"
@@ -34,7 +34,7 @@ const Home: NextPage = () => {
                         </a>
                         <a> - software developer</a>
                     </li>
-                </div>
+                </ul>
             </div>
             <div className="items-center flex flex-col text-xs lg:text-sm font-semibold lg:font-normal">
                 <h2 className="absolute bottom-7">
