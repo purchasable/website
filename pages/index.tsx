@@ -6,7 +6,7 @@ import { SiGmail } from "react-icons/si";
 
 const Home: NextPage = () => {
     return (
-        <div className="absolute inset-0 bg-zinc-900">
+        <div className="absolute inset-0 bg-zinc-900 font-semibold lg:font-normal">
             <div className="lg:p-20 lg:items-start items-center flex flex-col justify-center p-20 text-xs lg:text-sm space-y-6">
                 <h1 className="text-xl lg:text-2xl text-blue-400 font-bold">
                     Joseph Murphy
@@ -36,7 +36,7 @@ const Home: NextPage = () => {
                     </li>
                 </div>
             </div>
-            <div className="items-center flex flex-col text-xs lg:text-sm">
+            <div className="items-center flex flex-col text-xs lg:text-sm font-semibold lg:font-normal">
                 <h2 className="absolute bottom-7">
                     <span>joseph.sh</span>{" "}
                     <a
