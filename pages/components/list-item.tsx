@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import React from "react";
 import type { IconType } from "react-icons";
 
 export default function ListItem({
@@ -6,7 +6,7 @@ export default function ListItem({
     icon,
     link,
 }: {
-    text: ReactNode;
+    text: string;
     icon: IconType;
     link?: string;
 }) {
