@@ -39,6 +39,16 @@ export default function Home() {
                         <span> - software developer</span>
                     </li>
                 </ul>
+                <br />
+                <span>
+                    If you'd like to contact me, you can do so{" "}
+                    <a
+                        className="text-blue-500 cursor-pointer border rounded-lg border-gray-700 border-opacity-60 p-[3.5px] bg-zinc-800"
+                        href="/contact"
+                    >
+                        here
+                    </a>{" "}
+                </span>
             </div>
             <PageFooter />
         </div>
