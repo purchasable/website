@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import type { IconType } from "react-icons";
 
-export function ListItem({
+export default function ListItem({
     text,
     icon,
     link,
