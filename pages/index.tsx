@@ -3,7 +3,7 @@ import PageFooter from "./components/footer";
 export default function Home() {
     return (
         <div className="font-semibold lg:font-normal">
-            <div className="lg:p-20 lg:items-start items-center flex flex-col justify-center px-4 py-20 text-xs lg:text-sm space-y-6">
+            <div className="lg:p-20 lg:items-start items-center flex flex-col justify-center px-4 py-20 text-xs lg:text-sm space-y-[25px]">
                 <h1 className="text-xl lg:text-2xl text-blue-500 font-bold">
                     Joseph Murphy
                 </h1>
@@ -39,7 +39,6 @@ export default function Home() {
                         <span> - software developer</span>
                     </li>
                 </ul>
-                <br />
                 <span>
                     If you'd like to contact me, you can do so{" "}
                     <a
@@ -48,6 +47,11 @@ export default function Home() {
                     >
                         here
                     </a>{" "}
+                </span>
+                <br />
+                <span className="italic text-gray-500">
+                    "The innovation distinguishes between leader and a follower"
+                    - Steve Jobs
                 </span>
             </div>
             <PageFooter />
