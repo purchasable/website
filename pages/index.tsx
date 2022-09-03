@@ -13,7 +13,7 @@ export default function Home() {
                         className="text-blue-500 cursor-pointer border rounded-lg border-gray-700 border-opacity-60 p-[3.5px] bg-zinc-800"
                         href="/about"
                     >
-                        about me
+                        about me ↗️
                     </a>
                 </span>
                 <span className="underline">Roles</span>
