@@ -1,6 +1,5 @@
 import React from "react";
 import PageFooter from "./components/footer";
-import ListItem from "./components/list-item";
 import { HiOutlineMail } from "react-icons/hi";
 import { SiDiscord, SiTwitter } from "react-icons/si";
 
@@ -17,21 +16,33 @@ const contact = () => {
                     of the contact methods below.
                 </span>
                 <ul className="list-inside list-disc space-y-2">
-                    <ListItem
-                        icon={HiOutlineMail}
-                        text="contact@joseph.sh"
-                        link="mailto:contact@joseph.sh"
-                    />
-                    <ListItem
-                        text="joseph#0001"
-                        icon={SiDiscord}
-                        link="https://discord.com/users/451029281485619210"
-                    />
-                    <ListItem
-                        icon={SiTwitter}
-                        text="@updated"
-                        link="https://twitter.com/updated"
-                    />
+                    <li className="flex space-x-2">
+                        <HiOutlineMail className="h-6 w-6" />
+                        <a
+                            href="mailto:contact@joseph.sh"
+                            className="text-red-400 hover:text-white"
+                        >
+                            contact@joseph.sh
+                        </a>
+                    </li>
+                    <li className="flex space-x-2">
+                        <SiDiscord className="h-6 w-6" />
+                        <a
+                            href="https://discord.com/users/451029281485619210"
+                            className="text-red-400 hover:text-white"
+                        >
+                            joseph#0001
+                        </a>
+                    </li>
+                    <li className="flex space-x-2">
+                        <SiTwitter className="h-6 w-6" />
+                        <a
+                            href="https://twitter.com/updated"
+                            className="text-red-400 hover:text-white"
+                        >
+                            @updated
+                        </a>
+                    </li>
                 </ul>
             </div>
             <PageFooter />
