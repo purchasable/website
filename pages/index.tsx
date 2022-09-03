@@ -39,6 +39,7 @@ export default function Home() {
                         <span> - software developer</span>
                     </li>
                 </ul>
+                <br />
                 <span>
                     If you'd like to contact me, you can do so{" "}
                     <a
