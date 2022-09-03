@@ -1,6 +1,6 @@
 import React from "react";
 import PageFooter from "./components/footer";
-import { ListItem } from "./components/list-item";
+import ListItem from "./components/list-item";
 import { HiOutlineMail } from "react-icons/hi";
 import { SiDiscord, SiTwitter } from "react-icons/si";
 
