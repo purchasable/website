@@ -51,8 +51,8 @@ export default function Home() {
                 </span>
                 <br />
                 <span className="italic text-gray-500">
-                    "The innovation distinguishes between leader and a follower"
-                    - Steve Jobs
+                    "Innovation distinguishes between a leader and a follower" -
+                    Steve Jobs
                 </span>
             </div>
             <PageFooter />
