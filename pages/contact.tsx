@@ -12,8 +12,8 @@ const contact = () => {
                 </h1>
                 <span className="lg:mr-[30%] p-3 lg:p-0">
                     If you want to talk with me about any business opportunities
-                    / software development work, then you can reach me via one
-                    of the contact methods below.
+                    / software development work, or just want to have a chat;
+                    then you can reach me via one of the contact methods below.
                 </span>
                 <ul className="list-inside list-disc space-y-2">
                     <li className="flex space-x-2">
