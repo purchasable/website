@@ -5,8 +5,8 @@ import Image from "next/image";
 
 const about = () => {
     return (
-        <div className="font-semibold xl:font-normal static bg-zinc-900">
-            <div className="xl:px-20 xl:pt-20 pt-0 xl:items-start items-center flex flex-col justify-center px-5 pt-12 text-xs md:text-sm space-y-6 text-white">
+        <div className="font-semibold xl:font-normal lg:absolute bg-zinc-900">
+            <div className="xl:px-20 xl:pt-20 xl:items-start items-center flex flex-col justify-center px-5 pt-12 text-xs md:text-sm space-y-6 text-white">
                 <h1 className="text-xl xl:text-2xl text-blue-500 font-bold">
                     About
                 </h1>
