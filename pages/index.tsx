@@ -1,4 +1,5 @@
 import PageFooter from "./components/footer";
+import { NowPlayingCard } from "./components/nowPlayingCard";
 
 export default function Home() {
     return (
@@ -54,6 +55,7 @@ export default function Home() {
                     "Innovation distinguishes between a leader and a follower"{" "}
                     <span className="text-gray-400">- Steve Jobs</span>
                 </span>
+                <NowPlayingCard />
             </div>
             <div className="h-18">
                 <PageFooter />
