@@ -6,7 +6,7 @@ import { SiDiscord, SiTwitter } from "react-icons/si";
 const contact = () => {
     return (
         <div className="font-semibold lg:font-normal flex flex-col h-screen">
-            <div className="lg:p-20 lg:items-start items-center flex flex-col justify-center px-5 py-12 text-xs lg:text-sm space-y-6 text-white">
+            <div className="lg:p-20 lg:items-start items-center flex flex-col justify-center px-5 py-12 text-xs lg:text-sm space-y-6 text-white bg-zinc-900">
                 <h1 className="text-xl lg:text-2xl text-blue-500 font-bold">
                     Contact
                 </h1>
