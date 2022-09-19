@@ -2,8 +2,8 @@ import PageFooter from "./components/footer";
 
 export default function Home() {
     return (
-        <div className="font-semibold lg:font-normal">
-            <div className="lg:p-20 lg:items-start items-center flex flex-col justify-center px-4 py-12 text-xs lg:text-sm space-y-[25px]">
+        <div className="font-semibold lg:font-normal flex flex-col h-screen">
+            <div className="lg:p-20 lg:items-start items-center flex flex-col justify-center px-4 py-12 text-xs lg:text-sm space-y-[25px] mb-auto">
                 <h1 className="text-xl lg:text-2xl text-blue-500 font-bold">
                     Joseph Murphy
                 </h1>
@@ -55,7 +55,9 @@ export default function Home() {
                     <span className="text-gray-400">- Steve Jobs</span>
                 </span>
             </div>
-            <PageFooter />
+            <div className="h-18">
+                <PageFooter />
+            </div>
         </div>
     );
 }

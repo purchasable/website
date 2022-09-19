@@ -5,8 +5,8 @@ import Image from "next/image";
 
 const about = () => {
     return (
-        <div>
-            <div className="font-semibold xl:font-normal lg:absolute bg-zinc-900">
+        <div className="flex flex-col h-screen">
+            <div className="font-semibold xl:font-normal bg-zinc-900 mb-auto">
                 <div className="xl:px-20 xl:pt-20 xl:items-start items-center flex flex-col justify-center px-5 pt-12 text-xs md:text-sm space-y-6 text-white">
                     <h1 className="text-xl xl:text-2xl text-blue-500 font-bold">
                         About
@@ -49,7 +49,9 @@ const about = () => {
                     </span>
                 </div>
             </div>
-            <PageFooter />
+            <div className="h-18">
+                <PageFooter />
+            </div>
         </div>
     );
 };

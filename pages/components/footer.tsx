@@ -2,8 +2,8 @@ import React from "react";
 
 export default function PageFooter() {
     return (
-        <div className="items-center flex flex-col text-xs lg:text-sm font-semibold lg:font-normal">
-            <h2 className="absolute bottom-7">
+        <div className="items-center flex flex-col text-xs lg:text-sm font-semibold lg:font-normal mt-auto bg-zinc-900">
+            <h2 className="sticky pb-8">
                 <span>
                     {" "}
                     <a
