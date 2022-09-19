@@ -1,5 +1,5 @@
 import PageFooter from "./components/footer";
-import { NowPlayingCard } from "./components/nowPlayingCard";
+import NowPlayingCard from "./components/nowPlayingCard";
 
 export default function Home() {
     return (

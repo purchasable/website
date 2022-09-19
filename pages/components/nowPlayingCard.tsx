@@ -3,7 +3,7 @@ import { useLastFM } from "use-last-fm";
 import FadeIn from "react-fade-in";
 import Image from "next/image";
 
-export const NowPlayingCard = () => {
+export default function NowPlayingCard() {
     const lastFM = useLastFM(
         "vastid",
         "c5d606c551e059dedc6934f6991a33f3"!,
@@ -61,7 +61,7 @@ export const NowPlayingCard = () => {
             </a>
         </FadeIn>
     );
-};
+}
 
 function truncate(str: string, n: number) {
     return str.length > n ? str.substr(0, n - 1) + "..." : str;
