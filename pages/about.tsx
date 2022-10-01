@@ -49,7 +49,7 @@ const about = () => {
                     </span>
                 </div>
             </div>
-            <div className="lg:h-18">
+            <div className="lg:h-17">
                 <PageFooter />
             </div>
         </div>

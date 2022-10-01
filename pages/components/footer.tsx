@@ -17,7 +17,7 @@ export default function PageFooter() {
                 </span>{" "}
                 <a
                     target="_blank"
-                    href="https://github.com/alsojoseph"
+                    href="https://github.com/purchasable"
                     className="text-neutral-500 hover:text-blue-500"
                     rel="noreferrer"
                 >
