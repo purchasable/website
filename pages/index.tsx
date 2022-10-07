@@ -37,7 +37,7 @@ export default function Home() {
                         >
                             HiddenSociety
                         </a>
-                        <span> - software developer</span>
+                        <span> - cto & software developer</span>
                     </li>
                 </ul>
                 <br />
@@ -55,7 +55,6 @@ export default function Home() {
                     "Innovation distinguishes between a leader and a follower"{" "}
                     <span className="text-gray-400">- Steve Jobs</span>
                 </span>
-                <NowPlayingCard />
             </div>
             <div className="h-18">
                 <PageFooter />
