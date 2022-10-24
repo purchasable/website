@@ -13,12 +13,7 @@ const Home: NextPage = () => {
                     property="og:description"
                 />
                 <meta content="https://joseph.sh" property="og:url" />
-                <meta content="https://joseph.sh/me.jpg" property="og:image" />
-                <meta
-                    content="#ffb3e4"
-                    data-react-helmet="true"
-                    name="theme-color"
-                />
+                <meta content="#000000" name="theme-color" />
             </Head>
             <div className="py-10 lg:py-0 px-10 xl:px-[34.5%] lg:px-[20%] space-y-4 text-[15px] bg-zinc-900 lg:mb-[112px]">
                 <img src="me.jpg" className="h-24 inline rounded-full" />
