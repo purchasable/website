@@ -1,11 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body {
-	@apply text-neutral-900 dark:text-neutral-200 font-mono font-light;
+
+@font-face {
+    font-family: 'Inter';
+    font-display: block;
+    src: url(../fonts/inter-subset.woff2) format("woff2");
+    font-weight: 500
 }
-@supports (-webkit-touch-callout: none) {
-    .h-screen {
-        height: -webkit-fill-available !important; 
-    }
+
+@font-face {
+    font-family: 'Newsreader';
+    font-display: block;
+    src: url(../fonts/newsreader-subset.woff2) format("woff2");
+    font-weight: 400;
+    font-style: italic
 }
+

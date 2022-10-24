@@ -4,5 +4,14 @@ module.exports = {
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
   ],
+  theme: {
+    extend: {
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'],
+        newsreader: ['Newsreader', 'serif'],
+        ready: ['Sohne', 'serif'],
+      }
+    },
+  },
   plugins: [],
 }

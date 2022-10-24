@@ -1,64 +1,78 @@
-import PageFooter from "./components/footer";
-import NowPlayingCard from "./components/nowPlayingCard";
+import type { NextPage } from "next";
+import Head from "next/head";
 
-export default function Home() {
+const Home: NextPage = () => {
     return (
-        <div className="font-semibold lg:font-normal flex flex-col h-screen">
-            <div className="lg:p-20 lg:items-start items-center flex flex-col justify-center px-4 py-12 text-xs lg:text-sm space-y-[25px] mb-auto bg-zinc-900">
-                <h1 className="text-xl lg:text-2xl text-blue-500 font-bold">
+        <div className="lg:flex lg:h-screen lg:justify-center lg:items-center">
+            <Head>
+                <title>Joseph Murphy</title>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+            <div className="py-10 lg:py-0 px-10 xl:px-[34.5%] lg:px-[20%] space-y-5 text-[15px] bg-zinc-900 lg:mb-[116px]">
+                <img src="me.jpg" className="h-24 inline rounded-full" />
+                <h1 className="leading-7 font-inter font-semibold text-[18px] tracking-tight lg:tracking-wide">
                     Joseph Murphy
                 </h1>
-                <span>
-                    Full stack software & web3 dev -{" "}
+                <p className="font-newsreader italic font-normal text-[17px]">
+                    Constructing the future of the web.{" "}
+                    <span className="font-inter not-italic font-normal leading-7 text-[15px]">
+                        Entrepreneur & fullstack developer. Always learning and
+                        improving.
+                    </span>
+                </p>
+                <p className="font-inter font-normal leading-7 decoration-gray-500 decoration-2 underline-offset-2">
+                    Currently ceo @{" "}
                     <a
-                        className="text-blue-500 cursor-pointer border rounded-lg border-gray-700 border-opacity-60 p-[3.5px] bg-zinc-800"
-                        href="/about"
+                        href="https://www.miragebots.io"
+                        target={"_blank"}
+                        className="underline text-[#ffb3e4]"
                     >
-                        about me ↗️
+                        mirage
+                    </a>{" "}
+                    & cto @{" "}
+                    <a
+                        href="https://ahiddensociety.com"
+                        className="underline text-[#28F1A7]"
+                        target={"_blank"}
+                    >
+                        hiddensociety
                     </a>
-                </span>
-                <span className="underline">Roles</span>
-                <ul className="items-start space-y-1 list-disc list-inside">
-                    <li>
-                        <a
-                            target="_blank"
-                            className="hover:cursor-pointer underline text-red-400 hover:text-white"
-                            href="https://www.miragebots.io"
-                        >
-                            Mirage Software
-                        </a>
-                        <span> - founder & software developer</span>
-                    </li>
-                    <li>
-                        <a
-                            target="_blank"
-                            className="hover:cursor-pointer underline text-red-400 hover:text-white"
-                            href="https://ahiddensociety.com/"
-                        >
-                            HiddenSociety
-                        </a>
-                        <span> - cto & software developer</span>
-                    </li>
-                </ul>
-                <br />
-                <span>
-                    If you'd like to contact me, you can do so{" "}
-                    <a
-                        className="text-blue-500 cursor-pointer border rounded-lg border-gray-700 border-opacity-60 p-[3.5px] bg-zinc-800"
-                        href="/contact"
-                    >
+                    , with a wide range of responsibilities, ranging from team
+                    management to fullstack development.
+                </p>
+                <p className="font-inter font-normal leading-7 decoration-gray-500 decoration-2 underline-offset-2">
+                    Some notes that i've taken along my journey can be found{" "}
+                    <a href="/notes" className="underline">
                         here
                     </a>{" "}
-                </span>
-                <br />
-                <span className="italic text-gray-500">
+                </p>
+                <p className="font-inter font-normal leading-7 decoration-gray-500 decoration-2 underline-offset-2">
+                    Reach me at{" "}
+                    <a
+                        href="https://twitter.com/updated"
+                        className="underline"
+                        target={"_blank"}
+                    >
+                        @updated
+                    </a>{" "}
+                    or{" "}
+                    <a
+                        href="mailto:hi@joseph.sh"
+                        className="underline"
+                        target={"_blank"}
+                    >
+                        hi@joseph.sh
+                    </a>{" "}
+                </p>
+                <p className="font-newsreader italic font-normal text-[17px]">
                     "Innovation distinguishes between a leader and a follower"{" "}
-                    <span className="text-gray-400">- Steve Jobs</span>
-                </span>
-            </div>
-            <div className="h-18">
-                <PageFooter />
+                    <span className="font-inter font-normal leading-7 decoration-gray-500 text-[15px] text-gray-500 not-italic">
+                        - Steve Jobs
+                    </span>
+                </p>
             </div>
         </div>
     );
-}
+};
+
+export default Home;
