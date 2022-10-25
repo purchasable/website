@@ -9,7 +9,7 @@ const NewWebsite = () => {
     return (
         <div className="bg-zinc-900">
             <div className="py-20 px-10 xl:px-[34.5%] lg:px-[20%] space-y-5 text-[15px] bg-zinc-900 font-inter font-normal divide-zinc-700">
-                <div className="space-y-3">
+                <div className="space-y-1">
                     <h1 className="leading-7 font-inter font-semibold text-[16px] tracking-tight lg:tracking-wide lg:mt-20 bg-zinc-900">
                         <a
                             className="text-gray-500 hover:text-neutral-600"
@@ -19,11 +19,10 @@ const NewWebsite = () => {
                         </a>{" "}
                         {PostDetails.title}
                     </h1>
-                    <p className="text-gray-500 font-semibold text-[15px]">
+                    <p className="text-gray-500 font-semibold text-[14px]">
                         {PostDetails.date}
                     </p>
                 </div>
-                <br />
                 <p>
                     So... another new website, I know... it's not the best use
                     of my of my time. I never thought I would care so much about
