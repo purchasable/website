@@ -8,8 +8,8 @@ const PostDetails = {
 const NewWebsite = () => {
     return (
         <div className="bg-zinc-900">
-            <div className="py-20 px-10 xl:px-[34.5%] lg:px-[20%] space-y-6 text-[15px] bg-zinc-900 font-inter font-normal divide-zinc-700">
-                <div className="space-y-1">
+            <div className="py-20 px-10 xl:px-[34.5%] lg:px-[20%] space-y-4 text-[15px] bg-zinc-900 font-inter font-normal divide-zinc-700">
+                <div className="space-y-1 pb-3">
                     <h1 className="leading-7 font-inter font-semibold text-[16px] tracking-tight lg:tracking-wide lg:mt-20 bg-zinc-900">
                         <a
                             className="text-gray-500 hover:text-neutral-600"

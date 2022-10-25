@@ -7,15 +7,15 @@ const posts = [
         year: 2022,
         posts: [
             {
+                title: "Running a business in school",
+                date: "25/10",
+                slug: "running-a-business-in-school",
+            },
+            {
                 title: "A new website",
                 date: "24/10",
                 slug: "new-website",
             },
-            // {
-            //     title: "Running a business in school",
-            //     date: "24/10",
-            //     slug: "school-life-balance",
-            // },
         ],
     },
 ];
