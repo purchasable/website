@@ -20,14 +20,15 @@ const Home: NextPage = () => {
                     Joseph Murphy
                 </h1>
                 <p className="font-newsreader italic font-normal text-[17px]">
-                    Constructing the future of the web.{" "}
+                    Constructing the future of the web. <br />
                     <span className="font-inter not-italic font-normal leading-7 text-[15px]">
                         Entrepreneur & fullstack developer. Always learning and
                         improving.
                     </span>
                 </p>
                 <p className="font-inter font-normal leading-7 decoration-gray-500 decoration-2 underline-offset-2">
-                    Currently ceo @{" "}
+                    Not currently working on anything publicly, Watch this
+                    space. <br /> prev @{" "}
                     <a
                         href="https://www.miragebots.io"
                         target={"_blank"}
@@ -35,7 +36,7 @@ const Home: NextPage = () => {
                     >
                         mirage
                     </a>{" "}
-                    & cto @{" "}
+                    &{" "}
                     <a
                         href="https://ahiddensociety.com"
                         className="underline text-[#28F1A7]"
@@ -43,8 +44,6 @@ const Home: NextPage = () => {
                     >
                         hiddensociety
                     </a>
-                    , with a wide range of responsibilities, ranging from team
-                    management to fullstack development.
                 </p>
                 <p className="font-inter font-normal leading-7 decoration-gray-500 decoration-2 underline-offset-2">
                     Some notes that i've taken along my journey can be found{" "}
