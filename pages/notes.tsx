@@ -4,17 +4,12 @@ import Link from "next/link";
 
 const posts = [
     {
-        year: 2022,
+        year: 2023,
         posts: [
             {
-                title: "Running a business in school",
-                date: "25/10",
-                slug: "running-a-business-in-school",
-            },
-            {
-                title: "A new website",
-                date: "24/10",
-                slug: "new-website",
+                title: "Perfection",
+                date: "30/07",
+                slug: "perfection",
             },
         ],
     },
@@ -43,7 +38,7 @@ const Notes: NextPage = () => {
                                     <span className="absolute">
                                         {post.year}
                                     </span>
-                                    <div className="flex flex-row justify-between ml-[18%]">
+                                    <div className="flex flex-row justify-between ml-[18%] items-center">
                                         <a
                                             className="text-[#E5E5E5] hover:text-gray-500 truncate font-inter"
                                             href={`/notes/${post.posts[0].slug}`}
