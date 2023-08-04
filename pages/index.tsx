@@ -6,16 +6,9 @@ const Home: NextPage = () => {
         <div className="lg:flex lg:h-screen lg:justify-center lg:items-center">
             <Head>
                 <title>Joseph Murphy</title>
-                <link rel="icon" href="/favicon.ico" />
-                <meta content="Joseph Murphy" property="og:title" />
-                <meta
-                    content="Fullstack Software Developer"
-                    property="og:description"
-                />
-                <meta content="https://joseph.sh" property="og:url" />
             </Head>
             <div className="py-16 lg:py-0 px-10 xl:px-[34.5%] lg:px-[20%] space-y-4 text-[15px] bg-zinc-900 lg:mb-[112px]">
-                <img src="me.jpg" className="h-24 inline rounded-full" />
+                <img src="me.jpg" className="h-28 inline rounded-full" />
                 <h1 className="leading-7 font-inter font-semibold text-[18px] tracking-tight lg:tracking-wide">
                     Joseph Murphy
                 </h1>

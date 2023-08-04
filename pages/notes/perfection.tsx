@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 
 const PostDetails = {
     title: "Perfection",
@@ -8,6 +9,9 @@ const PostDetails = {
 const Perfection = () => {
     return (
         <div className="bg-zinc-900">
+            <Head>
+                <title>Perfection</title>
+            </Head>
             <div className="py-20 px-10 xl:px-[34.5%] lg:px-[20%] space-y-4 text-[15px] bg-zinc-900 font-inter font-normal divide-zinc-700">
                 <div className="space-y-1 pb-3">
                     <h1 className="leading-7 font-inter font-semibold text-[16px] tracking-tight lg:tracking-wide lg:mt-20 bg-zinc-900">
