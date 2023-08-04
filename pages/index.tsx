@@ -8,7 +8,7 @@ const Home: NextPage = () => {
                 <title>Joseph Murphy</title>
             </Head>
             <div className="py-16 lg:py-0 px-10 xl:px-[34.5%] lg:px-[20%] space-y-4 text-[15px] bg-zinc-900 lg:mb-[112px]">
-                <img src="me.jpg" className="h-28 inline rounded-full" />
+                <img src="me.jpg" className="h-24 inline rounded-full" />
                 <h1 className="leading-7 font-inter font-semibold text-[18px] tracking-tight lg:tracking-wide">
                     Joseph Murphy
                 </h1>
