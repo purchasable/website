@@ -20,10 +20,17 @@ const Home: NextPage = () => {
                     </span>
                 </p>
                 <p className="font-inter font-normal leading-7 decoration-gray-500 decoration-2 underline-offset-2">
-                    Not currently working on anything publicly, Watch this
-                    space. <br /> prev @{" "}
+                    tech lead @{" "}
                     <a
-                        href="https://www.miragebots.io"
+                        href="https://twitter.com/luminodelabs"
+                        target={"_blank"}
+                        className="underline text-[#059dea]"
+                    >
+                        luminode
+                    </a>
+                    <br /> prev @{" "}
+                    <a
+                        href="https://twitter.com/miragebots"
                         target={"_blank"}
                         className="underline text-[#ffb3e4]"
                     >
