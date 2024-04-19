@@ -28,7 +28,7 @@ const Home: NextPage = () => {
                     >
                         luminode
                     </a>
-                    <br /> prev @{" "}
+                    <br /> prev ceo{" "}
                     <a
                         href="https://twitter.com/miragebots"
                         target={"_blank"}
@@ -36,7 +36,7 @@ const Home: NextPage = () => {
                     >
                         mirage
                     </a>{" "}
-                    &{" "}
+                    // cto{" "}
                     <a
                         href="https://ahiddensociety.com"
                         className="underline text-[#28F1A7]"
