@@ -29,14 +29,7 @@ const Home: NextPage = () => {
                         luminode
                     </a>
                     <br /> prev ceo{" "}
-                    <a
-                        href="https://twitter.com/miragebots"
-                        target={"_blank"}
-                        className="underline text-[#ffb3e4]"
-                    >
-                        mirage
-                    </a>{" "}
-                    // cto{" "}
+                    <a className="underline text-[#ffb3e4]">mirage</a> // cto{" "}
                     <a
                         href="https://ahiddensociety.com"
                         className="underline text-[#28F1A7]"

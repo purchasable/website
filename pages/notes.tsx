@@ -4,8 +4,23 @@ import Link from "next/link";
 
 const posts = [
     {
+        year: 2024,
+        posts: [
+            {
+                title: "Motivation to start a business",
+                date: "1/08",
+                slug: "starting-a-business-motivation",
+            },
+        ],
+    },
+    {
         year: 2023,
         posts: [
+            {
+                title: "Advertising Shift",
+                date: "26/10",
+                slug: "advertising-shift",
+            },
             {
                 title: "Transactional Economy",
                 date: "04/08",
