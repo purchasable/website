@@ -15,19 +15,11 @@ const Home: NextPage = () => {
                 <p className="font-newsreader italic font-normal text-[17px]">
                     Constructing the future of the web. <br />
                     <span className="font-inter not-italic font-normal leading-7 text-[15px]">
-                        Entrepreneur & fullstack developer. Always learning and
-                        improving.
+                        Entrepreneur & fullstack developer.
                     </span>
                 </p>
                 <p className="font-inter font-normal leading-7 decoration-gray-500 decoration-2 underline-offset-2">
-                    tech lead @{" "}
-                    <a
-                        href="https://twitter.com/luminodelabs"
-                        target={"_blank"}
-                        className="underline text-[#059dea]"
-                    >
-                        luminode
-                    </a>
+                    currently building in stealth
                     <br /> prev ceo{" "}
                     <a className="underline text-[#ffb3e4]">mirage</a> // cto{" "}
                     <a
@@ -36,6 +28,14 @@ const Home: NextPage = () => {
                         target={"_blank"}
                     >
                         hiddensociety
+                    </a>{" "}
+                    // mp{" "}
+                    <a
+                        href="https://luminode.io"
+                        target={"_blank"}
+                        className="underline text-[#059dea]"
+                    >
+                        luminode
                     </a>
                 </p>
                 <p className="font-inter font-normal leading-7 decoration-gray-500 decoration-2 underline-offset-2">
